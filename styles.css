@@ -21,8 +21,15 @@ header {
   align-items: flex-start;
 }
 
-header .content {
+.content {
   margin: auto;
+  font-size: 2rem;
+}
+
+.content h1 {
+  color: white;
+  margin-bottom: 0;
+  font-weight: 2000;
 }
 
 nav {
@@ -53,9 +60,17 @@ nav li a {
 }
 
 .highlight {
-  background-color: #00c2ff;
+  background-color: #6f69ac;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
 }
 
 .selected {
   font-weight: bold;
+}
+
+#Visit {
+  margin-top: 10px;
+  font-weight: 500;
 }
